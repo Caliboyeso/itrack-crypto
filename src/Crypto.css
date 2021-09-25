@@ -1,0 +1,87 @@
+/* .crypto-container */
+.crypto-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* .crypto-row */
+.crypto-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid black;
+    width: 1020px;
+}
+
+/* .crypto */
+.crypto {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
+/* .crypto h1 */
+.crypto h1 {
+    font-size: 16px;
+    width: 150px;
+    font-family: 'Exo', sans-serif;
+}
+
+/* crypto img */
+.crypto img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* .crypto-symbol */
+.crypto-symbol {
+    text-transform: uppercase;
+    font-family: 'Exo', sans-serif;
+}
+
+/* .crypto-data */
+.crypto-data {
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* .crypto-price */
+.crypto-price {
+    width: 110px;
+}
+
+/* .crypto-volume */
+.crypto-volume {
+    width: 155px;
+}
+
+/* .crypto-marketcap */
+.crypto-marketcap {
+    width: 230px;
+}
+
+/* .crypto-percent */
+.crypto-percent {
+    width: 100px;
+}
+
+/* .red */
+.red {
+    color: red;
+}
+
+/* .green */
+.green {
+    color: green;
+}
+
+/* .crypto-span */
+.crypto-span {
+    color: silver;
+}
